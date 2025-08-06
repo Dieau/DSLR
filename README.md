@@ -327,6 +327,7 @@ Since we have four houses (Gryffindor, Slytherin, Hufflepuff, Ravenclaw), we nee
 4. **Final Training**: Once validated, retrain on entire dataset
 
 ![Split Example](images/split.png)
+
 *Example when a seed reaches accuracy threshold*
 
 **Why This Approach:**
