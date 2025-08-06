@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+
+[project]
+name = "dslr"
+version = "1.0.0"
+authors = [
+    {name = "Adel LAKHDAR", email = "alakhdar@student.42lyon.fr"},
+    {name = "Cyril BATTISTOLO", email = "cybattis@student.42lyon.fr"}
+]
+description = "A logistic regression classifier to sort Hogwarts students, for the 42 School DSLR project."
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "numpy==1.26.4",
+    "pandas==2.2.2",
+    "matplotlib==3.8.4",
+    "python-dateutil==2.9.0.post0",
+    "pytz==2024.1",
+    "six==1.16.0"
+]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+py-modules = []
