@@ -4,6 +4,8 @@
 
 The DSLR (Data Science Logistic Regression) project is a machine learning classification task inspired by the Harry Potter universe. The goal is to build a logistic regression model that can predict which Hogwarts house a student belongs to based on their academic performance in various magical subjects.
 
+![DSLR](images/dslr.png)
+
 ### Project Aims
 
 This project implements a complete machine learning pipeline from scratch, including:
